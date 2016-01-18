@@ -1,0 +1,1 @@
+Automatic local DNS names for Docker Machines

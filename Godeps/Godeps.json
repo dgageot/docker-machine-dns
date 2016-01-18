@@ -1,0 +1,68 @@
+{
+	"ImportPath": "github.com/dgageot/docker-machine-dns",
+	"GoVersion": "go1.5",
+	"Deps": [
+		{
+			"ImportPath": "github.com/docker/docker/pkg/term",
+			"Comment": "v1.4.1-8889-gdb738dd",
+			"Rev": "db738dd77f699e93f976441d5fc11ab48a2d6c68"
+		},
+		{
+			"ImportPath": "github.com/docker/go-units",
+			"Comment": "v0.1.0-21-g0bbddae",
+			"Rev": "0bbddae09c5a5419a8c6dcdd7ff90da3d450393b"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/commands/mcndirs",
+			"Comment": "v0.5.6-66-gd6e7d5b",
+			"Rev": "d6e7d5b966fa8914f6e7466813a65ac6cf67c80c"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/drivers/errdriver",
+			"Comment": "v0.5.6-66-gd6e7d5b",
+			"Rev": "d6e7d5b966fa8914f6e7466813a65ac6cf67c80c"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/drivers/none",
+			"Comment": "v0.5.6-66-gd6e7d5b",
+			"Rev": "d6e7d5b966fa8914f6e7466813a65ac6cf67c80c"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine",
+			"Comment": "v0.5.6-66-gd6e7d5b",
+			"Rev": "d6e7d5b966fa8914f6e7466813a65ac6cf67c80c"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/go.net/internal/iana",
+			"Rev": "104dcad90073cd8d1e6828b2af19185b60cf3e29"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/go.net/ipv4",
+			"Rev": "104dcad90073cd8d1e6828b2af19185b60cf3e29"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/go.net/ipv6",
+			"Rev": "104dcad90073cd8d1e6828b2af19185b60cf3e29"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/mdns",
+			"Rev": "9d85cf22f9f8d53cb5c81c1b2749f438b2ee333f"
+		},
+		{
+			"ImportPath": "github.com/miekg/dns",
+			"Rev": "297a77c2fb5ebf0f261733e3c03f0c3bb9fdd917"
+		},
+		{
+			"ImportPath": "github.com/samalba/dockerclient",
+			"Rev": "f661dd4754aa5c52da85d04b5871ee0e11f4b59c"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/curve25519",
+			"Rev": "beef0f4390813b96e8e68fd78570396d0f4751fc"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh",
+			"Rev": "beef0f4390813b96e8e68fd78570396d0f4751fc"
+		}
+	]
+}
