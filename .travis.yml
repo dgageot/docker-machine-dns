@@ -1,0 +1,9 @@
+language: go
+
+go:
+  - 1.5.3
+
+install: true
+script:
+  - make build
+  - "[[ \"$(find . -type f -name docker-machine-dns)\" != \"\" ]]"
