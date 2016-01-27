@@ -1,15 +1,20 @@
+BIN := docker-machine-dns
+
 export GO15VENDOREXPERIMENT = 1
 
 .DEFAULT_GOAL := build
 
-build: docker-machine-dns
+run: build
+	./$(BIN)
 
-docker-machine-dns: main.go zone/zone.go
+build: $(BIN)
+
+$(BIN): main.go zone/zone.go
 	go build .
 
 deps:
 	godep save
 
 clean:
-	rm docker-machine-dns
+	rm -f $(BIN)
 
